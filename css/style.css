@@ -1,0 +1,774 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Mulish:wght@300;400;700&display=swap'); */
+
+/* montserrat-regular - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+   }
+   /* montserrat-500 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+     src: url('../fonts/montserrat-v25-latin-500.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/montserrat-v25-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/montserrat-v25-latin-500.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/montserrat-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/montserrat-v25-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+   }
+   /* montserrat-600 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 600;
+     src: url('../fonts/montserrat-v25-latin-600.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/montserrat-v25-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/montserrat-v25-latin-600.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/montserrat-v25-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/montserrat-v25-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+   }
+   /* montserrat-regular - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+   }
+   /* montserrat-800 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 800;
+     src: url('../fonts/montserrat-v25-latin-800.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/montserrat-v25-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/montserrat-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/montserrat-v25-latin-800.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/montserrat-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/montserrat-v25-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+   }
+
+   /* mulish-300 - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 300;
+     src: url('../fonts/mulish-v12-latin-300.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/mulish-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/mulish-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/mulish-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/mulish-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/mulish-v12-latin-300.svg#Mulish') format('svg'); /* Legacy iOS */
+   }
+   /* mulish-regular - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/mulish-v12-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/mulish-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/mulish-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/mulish-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/mulish-v12-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+   }
+   /* mulish-700 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 700;
+     src: url('../fonts/mulish-v12-latin-700.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/mulish-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/mulish-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/mulish-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/mulish-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/mulish-v12-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+   }
+   
+#scroll-top{
+     width: 60px;
+     height: 60px;
+     background-color: black;
+     border-radius: 8px;
+     line-height: 56px;
+     font-size: 22px;
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     text-align: center;
+     transition: .5s;
+     z-index: 99996;
+}
+.pre-loader{
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     background-color: #F5F7F6;
+     z-index: 999999;
+     justify-content: center;
+}
+.pre-loader img{
+     width: 800px;     
+     height: auto;
+}
+
+:root{
+     --fontmon:'Montserrat', sans-serif;
+     --fontmuli:'Mulish', sans-serif;
+     --font-white:#fff;
+     --sec-title:#151515;
+     --prgs:#767676;
+     --linecolor:#39b54a;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html{
+     scroll-behavior: smooth;
+}
+body{
+     font-family: var(--fontmon);
+     /* line-height: 30px; */
+     /* background-color: rgb(228, 227, 227); */
+     background-color: #fbfbfb;
+}
+a{
+     text-decoration: none;
+}
+ul{
+     list-style: none;
+}
+img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+.container{
+     width: 1240px;
+     margin: 0 auto;
+     padding: 0px 15px;
+}
+.flex{
+     display: flex;
+     flex-wrap: wrap;
+}
+.justify-content{
+     justify-content: center;
+}
+.justify-between{
+     justify-content: space-between;
+}
+.align-item{
+     align-items: center;
+}
+.text-center{
+     text-align: center;
+}
+.spacer{
+     padding-top: 100px;
+     /* padding-bottom: 100px; */
+}
+.secTitle{
+     color: var(--sec-title);
+}
+.txtWhite{
+     color: var(--font-white) !important;
+}
+
+/* =================================================================
+                              Header
+====================================================================*/
+header{
+     /* background-color: #3C3C3C; */
+     position: fixed;
+     z-index: 99999;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+.main-header{
+     background-color: #111111;
+     padding: 22px 40px;
+     z-index: 9999;
+     position: relative;
+}
+.main-logo img{
+     height: auto;
+     width: 100px;
+}
+.navigation li a,nav a{
+     color: rgba(255, 255, 255, 0.45);
+     font-weight: bold;
+     font-size: 14px;
+     padding: 0 10px;
+}
+.navigation li a:hover, .navigation li a.active{
+     color: var(--font-white);
+}
+.header-btn{
+     background-color: #39b54a;
+     border-radius: 8px;
+     color: var(--font-white)  !important;
+     padding:10px 18px !important;
+     margin-left: 15px; transition: .3s;
+}
+.header-btn:hover{
+     background-color: #309A3F;
+}
+/* =================================================================
+                              main
+====================================================================*/
+
+/* -------------------banner-------------------- */
+
+.banner{
+     background-image: url(../img/asset\ 0.jpeg);
+     /* position: absolute; */
+     height: 750px;
+     width: 100%;
+     left: 0;background-size: cover;
+     top: 0;
+}
+.main-banner{
+     position: relative;
+     top: 145px;
+}
+.main-banner .left-side{
+     position: relative;
+     top: 150px;
+}
+.main-banner h2{
+     font-size: 52px;
+     padding-top: 25px;
+     padding-bottom: 30px;
+}
+.banner-buttons{
+     margin-top: 50px;
+}
+.banner-buttons a{transition: .3s;}
+.banner-buttons a:hover{
+     background-color: #fff; color: #111111 !important;
+}
+.banner-btn{
+     border: 4px solid #fff;
+     border-radius: 5px;
+     padding: 15px 25px;font-weight: bold;
+     margin-right: 20px;
+}
+.main-banner .right-side{
+     position: absolute;
+     right: 0;
+}
+.main-banner .right-side img{
+     width: 90%;
+}
+.banner .vr{
+     height: 50px;width: 2px; margin-top: -80px !important; margin: 0 60px;
+     float: right; background-color: #ffffff5e;
+}
+.main-banner .banner-icons li a{
+     color: var(--font-white) !important;
+}
+.banner .banner-icons{
+     float: right;
+}
+.banner .banner-icons li{
+     padding: 10px 50px;
+}
+.banner .banner-icons a{
+     font-size: 25px;
+}
+.banner .banner-icons .down-arrows{
+     margin-top: 50px;
+}
+
+/* -------------------About Our App-------------------- */
+.about .left-side{
+     color: #111111;
+}
+.about .right-side{
+     width: 65%;
+     line-height: 40px;
+     margin-left: auto;
+     font-family: var(--fontmuli);
+     font-size: 21px;
+     color: #838383;
+     font-weight: lighter;
+}
+.about .left-side h2{
+     font-size: 34px;color: var(--sec-title);
+     font-weight: 700; line-height: 0cqh;
+}
+
+/* =======================common css========================== */
+
+.about .left-side h2::before,
+.about-work h2::before,
+.pricing h2::before,
+.counter h2::before,
+.download h2::before{
+     content: "";
+     height: 2px;
+     width: 72px;
+     background-color: var(--linecolor);
+     position: absolute;top: 70px;
+}
+.about .about-us , .about .left-side ,.about-work,.pricing,.download{
+     position: relative;
+}
+
+/* ================================================================ */
+
+.about hr{
+     margin-top: 60px;
+}
+.about .about-features{
+     padding: 50px 0;
+     display: grid;
+     grid-template-columns: 30% 30% 30%;
+     gap: 50px;
+     margin-left: 30px;
+}
+.about .about-features i{
+     font-size: 50px;
+     color: var(--linecolor);
+     padding-bottom: 25px;
+}
+.about h3{
+     font-size: 19px;
+     color:  var(--sec-title);
+}
+.about p,
+.pricing p{
+     font-family: var(--fontmuli);
+     font-size: 16px;
+     padding-top: 40px;
+     line-height: 30px;
+     color: var(--prgs);
+}
+.about-work h2,.pricing h2,.counter h2,.download h2{
+     font-size: 34px;
+     padding-bottom: 30px;
+     color: var(--sec-title);
+}
+.about-work h2::before{
+     content: "";
+     top: 180px;
+     left: 46%;
+}
+.about-work .about-main-work
+{
+     display: grid;
+     grid-template-columns: 45% 45%;
+     margin-top: 70px;
+     justify-content: center;
+}
+.about-work .work-frame .work-num{
+     display: inline-flex;
+     justify-content: center;
+     color: var(--font-white);
+     font-weight: 500;font-size: 19px;
+     line-height: 53px;
+}
+.about-work .work-frame .work-num::after{
+     content: "";
+     width: 50px;
+     height: 50px;
+     background-color: var(--linecolor);
+     border-radius: 50%;
+     position: absolute;
+     z-index: -1;
+     display: block;
+}
+.about-work .work-margin{
+     /* margin-bottom: 50px; */
+     margin-left: 50px;
+}
+.about-work .work-mg{
+     margin-left: 80px !important;
+}
+.about-work .work-frame h3 ,.about-work .work-frame p{
+     /* border-left: 1px solid #000; */
+     margin-left: 120px;
+     margin-top: -20px;
+}
+.about-work .work-frame p{
+     margin-top: -10px;
+}
+.about-work .work-frame h3{
+     font-size: 20px;
+}
+.about-img{
+     padding-top: 50px;
+}
+
+/* -------------------------------pricing------------------------------- */
+
+.pricing{
+     background-color: #EBEBEB;
+     padding-bottom: 150px;
+}
+.pricing .main-pricing{
+     display: grid;
+     grid-template-columns: 33.33% 33.33% 33.33%;
+     gap: 20px;
+}
+.pricing .pricing-txt{
+     margin-right: 30px;
+}
+.pricing h2::before{
+     content: "";
+     top: 20%;
+}
+.pricing-plan{
+     background-color: #fff;
+     padding: 20px;
+     font-family: var(--fontmon);
+     padding: 50px 0px;
+     padding-bottom: 80px;
+     border-radius: 8px;
+     width: 90%;
+}
+.sec-pricing-plan{
+     background-color: #39b54a;
+}
+.pricing-plan h3{
+     font-size: 24px;
+     color: var(--sec-title); 
+     margin-bottom: 40px;    
+}
+.pricing-plan p{
+     padding-top: 0;
+}
+.pricing .price {
+     font-size: 75px;
+     color: var(--sec-title);
+     /* font-weight: 500; */
+}
+.pricing .price sup{
+     font-size: 30px;
+}
+.pricing-plan .pricing-duration{
+     font-size: 17px;
+     color: var(--prgs);
+     font-weight: bold;
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+.sec-pricing-duration{
+     color: #cbcbcb !important;
+}
+.pricing-plan .pricing-feature{
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+     margin-bottom: 70px !important;
+     margin: 0 50px;
+}
+.pricing-plan .sec-pricing-feature{
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.pricing-plan .pricing-feature li{
+     font-family: var(--fontmuli) !important;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+     padding-top: 15px; padding-bottom: 15px;
+     color: var(--prgs);
+}
+.pricing-plan .sec-pricing-feature li{
+     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.pricing-plan .pricing-feature li span{
+     color: var(--linecolor);
+     font-weight: bold;
+}
+
+.pricing a{
+     background-color: var(--linecolor);
+     padding: 21px 35px;
+     font-size: 15px;
+     font-weight: bold;transition: .3s;
+     border-radius: 5px;
+}
+.pricing a:hover{
+     background-color: #309A3F;
+}
+.sec-pricing-btn{
+     background-color: #fff !important;color: #111111;
+     transition: .3s;
+}
+.sec-pricing-btn:hover{
+     color: var(--linecolor);
+}
+
+/* --------------------work--------------------- */
+
+.counter{
+     padding-bottom: 100px;
+     width: 100%;
+     background-color: #309A3F;
+     color: #404040;
+     background-image: url(../img/counter.jpg);
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-position: 50% 50%;
+     position: relative;
+}
+.counter::after{
+     content: '';
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1111;
+     background: linear-gradient(to right, #309A3F,rgba(247, 244, 244, 0.82));
+}
+
+.counter .our-counter{
+     width: 50%;
+}
+.counter .counter-main-title{
+     position: relative;
+     z-index: 11111;
+}
+.counter .counter-main-title h2{
+     font-size: 42px;color: var(--sec-title);
+}
+.counter .counter-main-title .underline-1,
+.counter .counter-main-title .underline-2{
+     margin-left: 0px;
+}
+.counter .counter-main-title p{
+     font-size: 15px;
+     font-family: var(--fontmuli) !important;
+     letter-spacing: 0px;
+     line-height: 1.8em;
+     margin-bottom: 0px;
+     margin-top: 12px;
+     position: relative;
+     padding-top: 35px;
+     word-spacing: 1px;
+}
+.counter .graphics,
+.counter .website,
+.counter .coffee{
+     width: 16.66666667%;
+}
+
+.counter .main-counter .static{
+     margin-bottom: 30px;
+     background-color: transparent;
+     padding: 0px 0px;
+     padding-bottom: 0px;
+     position: relative;
+     z-index: 9999;
+}
+.counter .main-counter .stat-icon{
+     font-size: 55px;
+     margin-top: 0px;
+     border-radius: 5px;
+     text-align: center;
+     transition: .4s;
+}
+.counter .static h3{
+     font-size: 30px;
+     font-weight: normal;
+     margin-top: 25px;
+     letter-spacing: 1px;
+}
+.counter h2::before{
+     top: 70px;
+}
+.counter .static p{
+     font-size: 15px;
+     margin-top: 10px;
+}
+/* =======================================================================================================
+                                   download
+==========================================================================================================*/
+
+.download{
+     background-color: #54d265;
+     padding-bottom: 100px;
+}
+.download h2::before{
+     top:170px !important;
+     left: 47%;
+}
+.download p{
+     padding-top: 50px;
+     color: #b2fabc;
+     font-size: 23px;
+     font-family: var(--fontmuli);
+     padding-left: 150px;
+     line-height: 40px;
+     letter-spacing: 1px;
+     padding-right: 150px;
+}
+.download-badges{
+     padding-top: 50px;
+}
+.download-badges img{
+     width: 50%;
+     border-radius: 10px;
+}
+
+/* =======================================================================================================
+                                    footer
+==========================================================================================================*/
+.footer{
+     background-color: #000;
+     
+ }
+ .f1-part{
+      width: calc(25% - 15px);  
+      margin-right: 15px;
+      padding: 0 10px 0 0;
+ }  
+ .f1-part .footer-logo img{
+     width: 50%;
+ }
+ .f1-part p{
+      font-size: 12px;
+      font-weight: 400;
+      padding: 10px 0;
+      letter-spacing: 0.2px;
+      line-height: 20px;
+      color: var(--prgs);
+ }
+ .social-icon li{
+      margin: 10px 0;
+      margin-right: 12px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 30px;
+      border-radius: 5px;
+      transition: all 0.5s ease;
+ }
+ .social-icon li a{
+     color: var(--prgs);
+     font-size: 15px;
+ }
+ .f1-part .contact h3,
+ .f1-part .quick h3,
+ .f1-part .subscribe h3{
+      color: #fff;
+      font-size: 16px;
+      font-family: var(--fontopensans);
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+      font-weight: 500;
+ }
+ .contact h3::after,
+ .quick h3::after,
+ .subscribe h3::after{
+      position: absolute;
+      content: '';
+      background: var(--linecolor);
+      width: 50px;
+      height: 2px;
+      left: 0;
+      bottom: 0;
+ }
+ .contact-info ul li,
+ .quick ul li a{
+      align-items: start;
+      justify-content: left;
+      font-size: 13px;
+      color: var(--prgs);
+      padding: 10px 0;
+      position: relative;
+ }
+
+ .contact-info ul li span{
+      width: 90%;
+ }
+ .quick ul li{
+     display: inline-block;
+     width: 45%;
+     background-image: url(../images/asset\ 44.png); 
+     background-repeat: no-repeat;
+     background-position: left 11px; 
+     padding-left: 15px;
+     padding-bottom: 10px;
+ }
+ .quick ul li:hover a{
+      color: var(--linecolor);
+      padding-left: 4px;
+      transition: 0.8s;
+ }
+ .form-box{
+      padding: 0 3px;
+      border-radius: 5px;
+      background-color: #2b2b2b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+ }
+ .form-box input{
+      font-size: 14 px;
+      color: #000;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      outline: none;
+      background: #2b2b2b;
+      border-radius: 5px;
+      font-family: var(--fontpoppin);
+ }
+ .form-box button{
+      font-size: 14px;
+      color: #fff;
+      padding: 7px 10px;
+      border: none;
+      outline: none;
+      background: var(--linecolor);
+      border-radius: 5px;
+      font-family: var(--fontpoppin);
+      height: 35px;
+ }
+ .bottom-footer{
+      background-color: #000;
+      padding: 40px 0;
+      padding-top: 60px;
+ }
+ .bottom-footer p{
+      color: var(--prgs);
+      font-size: 14px;
+      font-family: var(--fontpoppin);
+      text-align: center;
+      font-weight: 300;
+      line-height: 20px;
+ }
